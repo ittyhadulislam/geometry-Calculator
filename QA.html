@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS style -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
+    <!-- tailwind and daisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        buttonColor: '#4406CB',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <title>QA Page</title>
+</head>
+
+<body>
+    <main class="w-full max-w-[1200px] m-auto">
+        <div class="collapse">
+            <input type="checkbox" class="peer" />
+            <div
+                class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                What is DOM and what is the purpose of DOM?
+            </div>
+            <div
+                class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                <p>Dom is the mirror of Real HTML. It's a programming interface. it's allow to create, delete elements
+                    <br>
+                    the purpose of Dom, it's help to get content dynamically and get get webpage interactive
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="collapse">
+            <input type="checkbox" class="peer" />
+            <div
+                class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                How will you select HTML elements using DOM? Name the DOM methods.
+            </div>
+            <div
+                class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                <p>
+                    document.getElementById() <br>
+                    document.getElementsByClassName() <br>
+                    document.querySelector() <br>
+                    querySelectorAll() <br>
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="collapse">
+            <input type="checkbox" class="peer" />
+            <div
+                class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                What is event bubble?
+            </div>
+            <div
+                class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                <p>Event bubble is when an element get an event, and that event up forward</p>
+            </div>
+        </div>
+        <br>
+        <div class="collapse">
+            <input type="checkbox" class="peer" />
+            <div
+                class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                What is a callback function and why will you use it?
+            </div>
+            <div
+                class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                <p>A callback function is that a function pased in another function as a argument. <br>
+                    its use for the code short and reusable</p>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <script src="./assets/js/formula.js"></script>
+    <script src="./assets/js/utils.js"></script>
+    <script src="./assets/js/funciton.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
